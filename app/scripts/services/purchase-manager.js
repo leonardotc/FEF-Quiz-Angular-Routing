@@ -18,7 +18,4 @@ angular.module('routingQuizApp')
       this.total += price;
     };
 
-    this.purchased = function(color) {
-      return this.contents.select(function(el) { el.color === color });
-    }
   });

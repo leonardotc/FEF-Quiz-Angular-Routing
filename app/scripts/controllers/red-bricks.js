@@ -9,7 +9,7 @@
  */
 angular.module('routingQuizApp')
   .controller('RedBricksCtrl', ['purchaseManager', function (manager) {
-    this.name = 'Red Bricks';
+    this.name = 'Red Bricks';;
 
     this.bricks = {
       '1x1': {

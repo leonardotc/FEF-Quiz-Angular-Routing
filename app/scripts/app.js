@@ -45,7 +45,18 @@ angular
       })
       .state('red-bricks.cart', {
         url: '/bricks/red/cart',
-        templateUrl: 'views/cart.html'
+        templateUrl: 'views/cart.html',
+        controller: 'CartCtrl as cart'
+      })
+      .state('blue-bricks.cart', {
+        url: '/bricks/red/cart',
+        templateUrl: 'views/cart.html',
+        controller: 'CartCtrl as cart'
+      })
+      .state('green-bricks.cart', {
+        url: '/bricks/red/cart',
+        templateUrl: 'views/cart.html',
+        controller: 'CartCtrl as cart'
       })
       ;
 
